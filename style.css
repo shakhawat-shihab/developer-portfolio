@@ -29,3 +29,10 @@ h1{
     font-weight: bold;
     text-transform: uppercase;
 }
+.dream-big{
+    display: flex;
+    padding-top: 100px ;
+    background: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
