@@ -8,6 +8,9 @@ h1{
 h2{
     font-size: 32px;
 }
+p{
+    color: grey;
+}
 .flexible-container{
     display: flex;
 }
