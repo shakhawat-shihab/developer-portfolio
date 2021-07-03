@@ -5,11 +5,17 @@ body{
 h1{
     font-size: 45px;
 }
-.name-design{
+h2{
+    font-size: 32px;
+}
+.flexible-container{
+    display: flex;
+}
+.orange-design{
     color: #FFB52E;
 }
+
 .top-banner{
-    display: flex;
     background-image: url('images/top-banner.png');
     background-repeat: no-repeat;
 }
@@ -30,9 +36,31 @@ h1{
     text-transform: uppercase;
 }
 .dream-big{
-    display: flex;
     padding-top: 100px ;
     background: url('images/dream-bg.png');
     background-repeat: no-repeat;
     background-position: right bottom;
+}
+
+.experience{
+    background-image: url('images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    margin: 100px 0;
+}
+.experience .half-width{
+    padding-left: 5%;
+    margin: 0 5%;
+    box-shadow: 2px 2px 15px gray;
+    border-radius: 1%;
+}
+.experience .half-width:nth-child(1){
+    border-left-width: 10px;
+    border-left-color:#FF9571 ;
+    border-left-style: solid;
+}
+.experience .half-width:nth-child(2){
+    border-left-width: 10px;
+    border-left-color: #0016FF;
+    border-left-style: solid;
 }
