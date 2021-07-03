@@ -52,15 +52,23 @@ h2{
     padding-left: 5%;
     margin: 0 5%;
     box-shadow: 2px 2px 15px gray;
-    border-radius: 1%;
 }
 .experience .half-width:nth-child(1){
-    border-left-width: 10px;
+    /*border-left-width: 10px;
     border-left-color:#FF9571 ;
-    border-left-style: solid;
+    border-left-style: solid;*/
+    border-left: 10px solid;
+    border-image:linear-gradient(#FF664A,#FF9D78); 
+    border-image-slice: 1;
 }
 .experience .half-width:nth-child(2){
-    border-left-width: 10px;
+   /* border-left-width: 10px;
     border-left-color: #0016FF;
-    border-left-style: solid;
+    border-left-style: solid; */
+    border-left: 10px solid;
+    border-image:linear-gradient(#0013FF,#00F4FF); 
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
